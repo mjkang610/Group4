@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://cfile22.uf.tistory.com/image/25487D455593B0B2123A74');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+.neighborhood-guides h2{
+    color: #393c3d;
+    font-size: 24px;
+}
+.neighborhood-guides p{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+input[type=text] {
+    width: 700px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+</style>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title></title>
+</head>
+<body></body>
+</html>
+<title></title>
+<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet" />
+<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet" />
+<link href="main.css" rel="stylesheet" />
+<div class="nav">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<ul class="pull-left">
+	<li><a href="1.html">Home</a></li>
+	<li><a href="#">Browse</a></li>
+</ul>
+
+<ul class="pull-left">
+	<li><a href="signup1.html">Sign Up</a></li>
+	<li><a href="2.html">Log Out</a></li>
+
+</ul>
+
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+</div>
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="container">
+<h1>GROUP4</h1>
+<p>
+ <?php
+$quoteList = array("Hello, There!", "Welcome!", "How Are You", "How Is Your Skin Doing?", "Welcome to Vyan", "We've Got Your Back!", "The Natural Beauty");
+echo($quoteList[rand(0,count($quoteList)-1)]);
+?>
+    </p>
+<p>Explore</p>
+<a href="#">Learn More</a></div>
+</div>
+
+<div class="neighborhood-guides">
+<div class="container">
+<h1 style="font-family:courier">USER'S DASHBOARD</h1>
+
+
+
+<div class="row">
+<div class="col-md-4">
+<div class="thumbnail">
+<h2 style="font-family:courier">User's profile</h2><img src="profile.jpg" /></div>
+
+<div class="thumbnail">
+
+<div class="col-md-4">
+<h3 style="font-family:courier">USER DETAIL</h3>
+<p style="font-family:courier">Current Work Position</p>
+<p style="font-family:courier">Experience:</p>
+<ol style="font-family:courier">experience1</ol>
+<ol style="font-family:courier">experience2</ol>
+<ol style="font-family:courier">experience3</ol>
+<ol style="font-family:courier">experience4</ol>
+<ol style="font-family:courier">experience5</ol>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="learn-more">
+<div class="container">
+<div>
+<div>
+<h3>User's Name</h3>
+
+</div>
+
+<div>
+<h3>Current Work Position</h3>
+
+<p>Work Location</p>
+
+</div>
+
+<div>
+<h3>Contact Info</h3>
+
+<p>Phone Number,E-mail address</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
